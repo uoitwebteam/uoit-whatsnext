@@ -39,6 +39,9 @@ npm run start
   - <code>data/<strong>[level]</strong>.json</code>
 * files inside `inc` folder are for rendering layout/HTML for this page and level
 * files inside `data` are JSON definitions that differ in structure slightly; used to generate "add to calendar" buttons for each calendar item
+* **both files need to be updated** when this section changes because their information changes tone in the context of a calendar event. Examples:
+  - a link that says "Click here to register" will need to be changed to "Visit http://the.link to register"
+  - a title that says "Deadline to submit completed applications to the Ontario Universities' Application Centre (OUAC)" could be shortened to "OUAC application deadline"
 
 ### Fifth (Twitter feed) page:
 * feed is generated inside `feed.php`
