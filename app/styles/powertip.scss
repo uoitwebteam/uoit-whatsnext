@@ -1,0 +1,150 @@
+//colors
+$color_mine_shaft_approx: #333;
+$black_80: rgba(0, 0, 0, 0.8);
+$white: #fff;
+$color_cornflower_approx: #9ac8eb;
+$color_cornflower_blue_approx: #67aee0;
+
+#powerTip {
+	cursor: default;
+	background-color: $color_mine_shaft_approx;
+	background-color: $black_80;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	color: $white;
+	display: none;
+	padding: 10px;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 2147483647;
+	&:before {
+		content: "";
+		position: absolute;
+	}
+	a {
+		color: $color_cornflower_approx;
+		&:hover {
+			color: $color_cornflower_blue_approx;
+		}
+	}
+	&.n:before {
+		border-right: 5px solid transparent;
+		border-left: 5px solid transparent;
+		left: 50%;
+		margin-left: -5px;
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+	}
+	&.s:before {
+		border-right: 5px solid transparent;
+		border-left: 5px solid transparent;
+		left: 50%;
+		margin-left: -5px;
+		border-bottom: 10px solid $color_mine_shaft_approx;
+		border-bottom: 10px solid $black_80;
+		top: -10px;
+	}
+	&.e:before {
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		margin-top: -5px;
+		top: 50%;
+		border-right: 10px solid $color_mine_shaft_approx;
+		border-right: 10px solid $black_80;
+		left: -10px;
+	}
+	&.w:before {
+		border-bottom: 5px solid transparent;
+		border-top: 5px solid transparent;
+		margin-top: -5px;
+		top: 50%;
+		border-left: 10px solid $color_mine_shaft_approx;
+		border-left: 10px solid $black_80;
+		right: -10px;
+	}
+	&.ne:before {
+		border-right: 10px solid transparent;
+		border-left: 0;
+		left: 10px;
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+	}
+	&.se:before {
+		border-right: 10px solid transparent;
+		border-left: 0;
+		left: 10px;
+		border-bottom: 10px solid $color_mine_shaft_approx;
+		border-bottom: 10px solid $black_80;
+		top: -10px;
+	}
+	&.nw:before {
+		border-left: 10px solid transparent;
+		border-right: 0;
+		right: 10px;
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+	}
+	&.sw:before {
+		border-left: 10px solid transparent;
+		border-right: 0;
+		right: 10px;
+		border-bottom: 10px solid $color_mine_shaft_approx;
+		border-bottom: 10px solid $black_80;
+		top: -10px;
+	}
+	&.nw-alt:before {
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		left: 10px;
+	}
+	&.ne-alt:before {
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		left: 10px;
+		left: auto;
+		right: 10px;
+	}
+	&.sw-alt:before {
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		left: 10px;
+		border-top: none;
+		border-bottom: 10px solid $color_mine_shaft_approx;
+		border-bottom: 10px solid $black_80;
+		bottom: auto;
+		top: -10px;
+	}
+	&.se-alt:before {
+		border-top: 10px solid $color_mine_shaft_approx;
+		border-top: 10px solid $black_80;
+		bottom: -10px;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		left: 10px;
+		border-top: none;
+		border-bottom: 10px solid $color_mine_shaft_approx;
+		border-bottom: 10px solid $black_80;
+		bottom: auto;
+		top: -10px;
+		left: auto;
+		right: 10px;
+	}
+}
+@media only screen and(max-width: 64em) {
+	#powerTip {
+		white-space: pre-wrap;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,4 @@
+## Redirects
+
+RewriteEngine on
+RewriteRule ^whatsnext([A-Za-z0-9-]+)/?$ index.php?level=$1 [NC]
