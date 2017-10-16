@@ -78,10 +78,10 @@
 
 
 						<div class="notice">
-							<p>You should have received an email from us containing your UOIT Student Number <a href="javascript:;" class="whiter tooltipTop" title="Your UOIT Student Number is a nine-digit number beginning with 100. This is different than your OUAC number."><strong>(100xxxxxx)</strong></a> and confirming the program(s) you have applied to.</p>
+							<p>You should have received an email from us containing your Student Number <a href="javascript:;" class="whiter tooltipTop" title="Your UOIT Student Number is a nine-digit number beginning with 100. This is different than your OUAC number."><strong>(100xxxxxx)</strong></a> and confirming the programs you have applied to.</p>
 							<span class="ion-asterisk"></span>
 						</div>
-						<p>If you have not received this email, ensure the correct email address is listed on your Ontario Universities’ Application Centre (OUAC) application <span class="ion-information-circled tooltipTop" id="tip-ouac<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '-105' : ''; ?>" tabindex="0"></span> &nbsp;or contact us at <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>' : '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>'; ?>.</p>
+						<p>If you have not received this email, ensure the correct email address is listed on your <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? 'OUAC' : 'Ontario Universities’ Application Centre (OUAC)'; ?> application <span class="ion-information-circled tooltipTop" id="tip-ouac<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '-105' : ''; ?>" tabindex="0"></span> &nbsp;or contact us at <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>' : '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>'; ?>.</p>
 						<button id="cta_btn_pg1" class="button nextButton righter" onclick="ga('send','event','button','click','click_cta_btn_pg1');" data-anchor="#page-two">So what's next?</button>
 					</div>
 				</article>
@@ -97,14 +97,14 @@
 				<article class="panel blue">
 					<div class="vertCenter">
 						<h2>View the status of your application</h2>
-						<p class="bigger">To view your application status and any outstanding documentation required, follow these steps:</p>
+						<p class="bigger">To view your application, and all outstanding documentation, visit the admissions portal by following these steps:</p>
 					</div>
 					<span class="ion-clipboard"></span>
 				</article>
 				<article>
 					<ol class="blockier hider">
 						<li>Visit the <a href="http://www.uoit.ca/mycampus/" target="_blank"><strong>admissions portal login page</strong></a>. <span class="ion-information-circled tooltipBtm" id="tip-helpdesk" tabindex="0"></span></li>
-						<li><strong>Log in</strong> using your UOIT Student Number as the username and your date of birth as the password (MMDDYY format). <span class="ion-information-circled tooltipTop" title="Your UOIT Student Number is a nine-digit number beginning with 100. This is different than your OUAC number." tabindex="0"></span></li>
+						<li><strong>Log in</strong> using your Student Number as the username and your date of birth as the password (MMDDYY format). <span class="ion-information-circled tooltipTop" title="Your UOIT Student Number is a nine-digit number beginning with 100. This is different than your OUAC number." tabindex="0"></span></li>
 						<li>Select the <strong>UOIT applicant</strong> tab at the top left of your screen.</li>
 						<li>Select the <strong>admissions portal</strong> link.</li>
 						<li class="blockNote">If you have any questions about your application, contact us at <a href="tel:9057213190">905.721.3190</a>, <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>' : '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>'; ?> or <a href="http://uoit.ca/chat" target="_blank">chat with us</a> online.</li>

@@ -1,91 +1,85 @@
 [{
     "title": "UOIT Fall Open House",
-    "start": "2016-11-19T09:00:00.000Z",
-    "end": "2016-11-19T14:00:00.000Z",
+    "start": "2017-11-25T09:00:00.000Z",
+    "end": "2017-11-25T14:00:00.000Z",
     "address": "All UOIT buildings",
-    "description": "Come experience what UOIT is all about! Meet current students, faculty and staff; attend faculty information sessions; visit labs and experience why more students are making UOIT their first choice. To register visit http://sites.uoit.ca/openhouse/"
+    "description": "This is the perfect opportunity to come and see the campus. Talk to current students, professors and staff. To register visit http://uoit.ca/openhouse"
 },{
-    "title": "Offers of Admission Start Releasing",
-    "start": "2016-12-01T00:00:00.000Z",
-    "end": "2016-12-31T23:59:00.000Z",
+    "title": "Offers of admission start releasing",
+    "start": "2017-12-01T00:00:00.000Z",
+    "end": "2017-12-31T23:59:00.000Z",
     "address": "UOIT",
-    "description": "Offers of admission will begin to be released once appropriate documentation is submitted. Offers will continue to be issued on a regular basis as documentation is received."
+    "description": "Offers of admission will begin to be released rolling bases as documentation is received."
 },{
     "title": "UOIT Closed",
-    "start": "2016-12-24T00:00:00.000Z",
-    "end": "2017-01-01T23:59:00.000Z",
+    "start": "2017-12-25T00:00:00.000Z",
+    "end": "2018-01-01T23:59:00.000Z",
     "address": "All UOIT buildings",
     "description": "Closed for Holidays."
 },{
-    "title": "Deadline to Submit Applications to OUAC for Competitive Programs",
-    "start": "2017-01-31T00:00:00.000Z",
-    "end": "2017-01-31T23:59:00.000Z",
+    "title": "Deadline to submit applications to OUAC for competitive programs",
+    "start": "2018-01-31T00:00:00.000Z",
+    "end": "2018-01-31T23:59:00.000Z",
     "address": "Canada",
-    "description": "Deadline to submit completed applications for competitive programs to the Ontario Universities’ Application Centre (OUAC). Competitive programs include: Kinesiology Diploma to Degree, Medical Laboratory Science, Nursing and Nursing (post-RPN)"
+    "description": "Deadline to submit completed applications for competitive programs to the Ontario Universities’ Application Centre (OUAC): Kinesiology – advanced entry – Fitness and Health Promotion, Kinesiology – advanced entry – OTA/PTA, Medical Laboratory Science , Nursing , Nursing (post-RPN). Please note: Applications received after this date will still be processed by OUAC and distributed to the universities. However, specific institutional deadlines will apply."
 },{
-    "title": "Document Submission Deadline for Competitive Programs",
-    "start": "2017-01-31T00:00:00.000Z",
-    "end": "2017-01-31T23:59:00.000Z",
+    "title": "Document submission deadline for competitive programs",
+    "start": "2018-01-31T00:00:00.000Z",
+    "end": "2018-01-31T23:59:00.000Z",
     "address": "Canada",
-    "description": "A midterm or final mark must be submitted for each prerequisite course in order to be considered for admission. Competitive programs include: Kinesiology Diploma to Degree, Medical Laboratory Science, Nursing and Nursing (post-RPN)"
+    "description": "A midterm mark (for high school courses) or final mark (for college and university courses) must be submitted for each prerequisite course in order to be considered for admission. Competitive programs include: Kinesiology – advanced entry – Fitness and Health Promotion, Kinesiology – advanced entry – OTA/PTA, Medical Laboratory Science , Nursing , Nursing (post-RPN)."
 },{
     "title": "UOIT Pathways Information Night",
-    "start": "2017-02-22T18:00:00.000Z",
-    "end": "2017-02-22T20:00:00.000Z",
+    "start": "2018-02-21T18:00:00.000Z",
+    "end": "2018-02-21T20:00:00.000Z",
     "address": "UOIT",
-    "description": "If you’re considering a college-to-university transfer program, we invite you to come meet current students, staff and faculty and learn more about our academic programs and student services. for info and to register visit http://sites.uoit.ca/pathways/event-calendar.php"
-},{
-    "title": "Deadline to Apply for Chancellor's, President's and Founder's Scholarships",
-    "start": "2017-02-28T00:00:00.000Z",
-    "end": "2017-02-28T23:59:00.000Z",
-    "address": "UOIT",
-    "description": "Deadline for Secondary School Students to apply for the following: Chancellor's Scholarship, President's Scholarship and Founder's Scholarship"
+    "description": "If you are looking to turn your diploma into a degree, our Pathways Information Night provides you with an opportunity to learn more about your degree options, speak with faculty and staff, and learn more about our academic programs and dynamic student life. For more information and to register, visit http://sites.uoit.ca/pathways/event-calendar.php."
 },{
     "title": "UOIT Winter Open House",
-    "start": "2017-03-04T09:00:00.000Z",
-    "end": "2017-03-04T14:00:00.000Z",
+    "start": "2018-03-04T09:00:00.000Z",
+    "end": "2018-03-04T14:00:00.000Z",
     "address": "All UOIT buildings",
-    "description": "Meet current students, faculty and staff; attend faculty information sessions; visit labs and experience why more students are making UOIT their first choice. to apply visit http://sites.uoit.ca/openhouse/"
+    "description": "This is the perfect opportunity to come and see the campus! Talk to current students, professors and staff. To register, visit http://uoit.ca/openhouse"
+},{
+    "title": "Deadline to apply for the following scholarships: Chancellor's, President's, Founder's and Global Leadership Award",
+    "start": "2018-03-04T00:00:00.000Z",
+    "end": "2018-03-04T23:59:00.000Z",
+    "address": "UOIT",
+    "description": "Deadline for Secondary School Students to apply for the following: Chancellor's Scholarship, President's Scholarship, Founder's Scholarship (http://communications.uoit.ca/sample/all-content-types/multi-row-content.phphttp:/safa.uoit.ca/scholarships-and-bursaries/scholarships/index.php#application), and Global Leadership Award (http://safa.uoit.ca/scholarships-and-bursaries/scholarships/scholarships-and-awards-for-international-students.php)"
 },{
     "title": "UOIT March Break Tours",
-    "start": "2017-03-13T08:00:00.000Z",
-    "end": "2017-03-17T22:00:00.000Z",
+    "start": "2018-03-12T08:00:00.000Z",
+    "end": "2018-03-16T22:00:00.000Z",
     "address": "All UOIT buildings",
-    "description": "To apply visit http://uoit.ca/tours/"
+    "description": "To apply visit http://uoit.ca/main/future-students/undergraduate/campus-tours-and-events/book-a-campus-tour.php?utm_source=redirect&utm_medium=web&utm_campaign=tours"
+},{
+    "title": "Deadline to submit FIRST Robotics Canada Scholarship application",
+    "start": "2018-03-15T00:00:00.000Z",
+    "end": "2018-03-15T23:59:00.000Z",
+    "address": "UOIT",
+    "description": "Deadline for out-of-province secondary school students and Ontario secondary school graduates to submit FIRST Robotics Canada Scholarship application. More info at http://safa.uoit.ca/scholarships-and-bursaries/scholarships/index.php#first"
 },{
     "title": "Deadline to submit applications to OUAC for equal consideration",
-    "start": "2017-03-31T00:00:00.000Z",
-    "end": "2017-03-31T23:59:00.000Z",
-    "address": "Canada",
-    "description": "Deadline to submit completed applications to the Ontario Universities' Application Centre (OUAC) for equal consideration. Please note: Applications received after this date will still be processed by OUAC and distributed to the universities. However, specific institutional deadlines will apply."
+    "start": "2018-03-30T00:00:00.000Z",
+    "end": "2018-03-30T23:59:00.000Z",
+    "address": "UOIT",
+    "description": "Deadline to submit completed applications to the Ontario Universities' Application Centre (OUAC) for equal consideration. Please note: Applications received after this date will still be processed by OUAC and distributed to the universities. However, specific institutional deadlines will apply."
 },{
-    "title": "Document Submission Deadline for Non-Competitive Programs",
-    "start": "2017-03-31T00:00:00.000Z",
-    "end": "2017-03-31T23:59:00.000Z",
-    "address": "Canada",
+    "title": "Document submission deadline for non-competitive programs",
+    "start": "2018-03-30T00:00:00.000Z",
+    "end": "2018-03-30T23:59:00.000Z",
+    "address": "UOIT",
     "description": "Document submission deadline for admissions consideration for non-competitive programs."
 },{
-    "title": "Deadline to submit FIRST Robotics Canada Scholarship Application",
-    "start": "2017-03-31T00:00:00.000Z",
-    "end": "2017-03-31T23:59:00.000Z",
-    "address": "UOIT",
-    "description": "Deadline for out-of-province secondary school students and Ontario secondary school graduates to submit FIRST Robotics Canada Scholarship application."
-},{
-    "title": "Deadline for Global Leadership Award Application",
-    "start": "2017-03-31T00:00:00.000Z",
-    "end": "2017-03-31T23:59:00.000Z",
-    "address": "UOIT",
-    "description": "Deadline for international secondary school students to submit Global Leadership Award application."
-},{
-    "title": "Deadline to Apply for UOIT Residence",
-    "start": "2017-06-01T00:00:00.000Z",
-    "end": "2017-06-01T23:59:00.000Z",
+    "title": "Deadline to apply for UOIT residence",
+    "start": "2018-06-01T00:00:00.000Z",
+    "end": "2018-06-01T23:59:00.000Z",
     "address": "UOIT",
     "description": "Residence applications must be received by this date to guarantee a spot in residence. Apply at http://uoitrez.ca/"
 },{
     "title": "Deadline to submit tuition deposit",
-    "start": "2017-06-15T00:00:00.000Z",
-    "end": "2017-06-15T23:59:00.000Z",
+    "start": "2018-06-15T00:00:00.000Z",
+    "end": "2018-06-15T23:59:00.000Z",
     "address": "UOIT",
     "description": "Applicants must first accept their offers through OUAC before they can pay their deposits."
 }]
