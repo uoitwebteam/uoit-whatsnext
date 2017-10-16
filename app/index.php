@@ -276,10 +276,7 @@
   <!-- endbuild -->
 	<script type="text/javascript">
 		$(document).ready(function(){
-			<?php
-				$level = isset($_GET['level']) ? $_GET['level'] : "101";
-				echo "window.loadEvents(".$level.");";
-			?>
+      loadEvents(<?php echo isset($_GET['level']) ? $_GET['level'] : "101";?>);
 		});
 	</script>
 
