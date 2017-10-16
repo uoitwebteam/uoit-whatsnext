@@ -21,3 +21,25 @@ npm run start
 ```
 
 ...to watch for file changes and rebuild to the distribution.
+
+## Making content edits
+
+### All pages:
+
+* make edits in the `app` directory only (not `dist`)
+* most "main" content is written directly inside `index.php`
+* to write content for only one level (101 and 105) use PHP and the `level` query parameter:
+  ```php
+  <?php if (isset($_GET['level']) && $_GET['level'] === '105') echo 'Shows on 105 only!'; ?>
+  ```
+
+### Third (calendar) page:
+* each level has two additional files to render this page:
+  - <code>inc/<strong>[level]</strong>cal.php</code>
+  - <code>data/<strong>[level]</strong>.json</code>
+* files inside `inc` folder are for rendering layout/HTML for this page and level
+* files inside `data` are JSON definitions that differ in structure slightly; used to generate "add to calendar" buttons for each calendar item
+
+### Fifth (Twitter feed) page:
+* feed is generated inside `feed.php`
+* contains API keys, user ID to point feed towards, and markup for feed layout
