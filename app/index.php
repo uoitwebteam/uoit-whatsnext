@@ -81,7 +81,7 @@
 							<p>You should have received an email from us containing your Student Number <a href="javascript:;" class="whiter tooltipTop" title="Your UOIT Student Number is a nine-digit number beginning with 100. This is different than your OUAC number."><strong>(100xxxxxx)</strong></a> and confirming the programs you have applied to.</p>
 							<span class="ion-asterisk"></span>
 						</div>
-						<p>If you have not received this email, ensure the correct email address is listed on your <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? 'OUAC' : 'Ontario Universities’ Application Centre (OUAC)'; ?> application <span class="ion-information-circled tooltipTop" id="tip-ouac<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '-105' : ''; ?>" tabindex="0"></span> &nbsp;or contact us at <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>' : '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>'; ?>.</p>
+						<p>If you have not received this email, ensure the correct email address is listed on your <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? 'OUAC' : 'Ontario Universities’ Application Centre (OUAC)'; ?> application <span class="ion-information-circled tooltipTop" id="tip-ouac<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '-105' : ''; ?>" tabindex="0"></span> &nbsp;or contact us at <?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>': '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>'; ?>.</p>
 						<button id="cta_btn_pg1" class="button nextButton righter" onclick="ga('send','event','button','click','click_cta_btn_pg1');" data-anchor="#page-two">So what's next?</button>
 					</div>
 				</article>
@@ -210,7 +210,7 @@
 						<div class="notice telephone">
 							<p>
 								<span class="ion-ios-telephone"></span> &nbsp;&nbsp;<a href="tel:9057213190">905.721.3190</a><br/>
-								<span class="ion-email"></span> &nbsp;&nbsp;<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>' : '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>'; ?>
+								<span class="ion-email"></span> &nbsp;&nbsp;<?php echo (isset($_GET['level']) && $_GET['level'] == '105') ? '<a href="mailto:futurestudent@uoit.ca">futurestudent@uoit.ca</a>' : '<a href="mailto:myapplication@uoit.ca">myapplication@uoit.ca</a>'; ?>
 							</p>
 						</div>
 						<p class="centerer">
